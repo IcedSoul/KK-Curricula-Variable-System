@@ -1,0 +1,180 @@
+#header, #footer{
+    opacity: 0.7;
+    background-color: #f8f8f8;
+    border-width: 0 0 0;
+    display:block;
+    width: 100%;
+    z-index:9;
+    text-align:center;
+}
+
+#footer {
+    position: fixed;
+    bottom: 0;
+}
+.main-button {
+    margin-top: 15px;
+    height: 80px;
+    background-color: #fff;
+    border:1px solid #111;
+    -webkit-border:1px solid #111;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 26px;
+    color:#111;
+    cursor: pointer;
+    transition: all 1.5s;
+}
+
+.main-button:hover {
+    background-color: #666;
+    border-color: #fff;
+    color: #fff;
+    transition: all 1.5s;
+}
+
+.main-button-inner-text {
+    width: auto;
+    height: auto;
+    margin-top: 40px;
+    transform: translateY(-50%);
+}
+
+.button-padding {
+    padding-top: 20px;
+}
+.main-button2 {
+    margin-top: 15px;
+    height: 120px;
+    background-color: #fff;
+    border:1px solid #111;
+    -webkit-border:1px solid #111;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 26px;
+    color:#111;
+    cursor: pointer;
+    transition: all 1.5s;
+}
+
+.main-button2:hover {
+    background-color: #666;
+    border-color: #fff;
+    color: #fff;
+    transition: all 1.5s;
+}
+
+.main-button2-inner-text {
+    width: auto;
+    height: auto;
+    margin-top: 60px;
+    transform: translateY(-50%);
+}
+.pd-t-40 {
+    padding-top: 40px;
+}
+.pd-t-20 {
+    padding-top: 20px;
+}
+
+.mg-t-10 {
+    margin-top: 10px;
+}
+
+.pageBox {
+    width:100%;
+    text-align: center;
+}
+.mg-t-100 {
+    margin-top: 150px;
+}
+
+.courseListHeight {
+    height: 80%;
+}
+
+.main-button3 {
+    margin-top: 15px;
+    height: 80px;
+    background-color: #fff;
+    border:1px solid #111;
+    -webkit-border:1px solid #111;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 24px;
+    color:#111;
+    cursor: pointer;
+    transition: all 1.5s;
+}
+
+.main-button3:hover {
+    background-color: #666;
+    border-color: #fff;
+    color: #fff;
+    transition: all 1.5s;
+}
+
+.main-button3-inner-text {
+    width: auto;
+    height: auto;
+    margin-top: 40px;
+    transform: translateY(-50%);
+}
+
+.studentListArea {
+    width: 100%;
+    height: auto;
+    overflow-y: auto;
+}
+
+.courseListHeight {
+    height: 80%;
+}
+
+.windowBox{
+    width: 100%;
+    height:100%;
+    overflow: hidden;
+    padding-top: 40px;
+}
+.mBtnOffset {
+    margin-top: 15px;
+}
+
+.studentsTable{
+    width:100% ;
+    height:500px;
+    overflow-y: scroll;
+}
+.studentsTable::-webkit-scrollbar-track
+{
+    -webkit-box-shadow: inset 0 0 4px rgba(0,0,0,0.3);
+    background-color: #fff;
+}
+
+.studentsTable::-webkit-scrollbar
+{
+    width: 4px;
+    background-color: #555;
+}
+
+.studentsTable::-webkit-scrollbar-thumb
+{
+    background-color: #aaa;
+}
+
+.diy-r-t {
+    width: 25px;
+    height: 100px;
+    font-size: 14px;
+    border:1px solid #111;
+    -webkit-border:1px solid #111;
+    border-radius: 15px;
+    position: fixed;
+    right: 4px;
+    top:300px;
+    padding-left: 4px;
+    padding-top: 8px;
+    cursor: pointer;
+    z-index:20000;
+}
